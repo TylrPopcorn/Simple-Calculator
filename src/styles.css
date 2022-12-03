@@ -1,0 +1,70 @@
+.App {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  padding: 2em;
+}
+
+body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background: #198425;
+}
+
+.col-xs-4 {
+  padding: 0;
+}
+
+.form-control {
+  border-color: #6c5ce7 !important;
+}
+
+button, textarea {
+  border-radius: 0px !important;
+  font-size: 24px !important;
+}
+
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
+  margin: 0;
+}
+
+button {
+  width: 100px;
+  text-align: center;
+  padding: 15px !important;
+  outline: none;
+  margin-top: 10px;
+  background-color: #d4e554 !important;
+  border-color: #cbe75c !important;
+  color: rgb(0, 0, 0) !important
+}
+
+.error {
+  height: 50px;
+  font-size: 35px;
+  color: rgb(0, 255, 0);
+  opacity: 0.9;
+  font-weight: 900;
+  -webkit-text-stroke: 0.5px black;
+}
+
+.btn-primary:focus, .btn-primary, .form-control:focus {
+  box-shadow: none !important
+}
+
+.col-xs-6 button {
+  width: 150px
+}
+
+.form-control:nth-child(1){
+  height: 150px;
+}
+
+.form-group {
+  margin-bottom: 0px;
+}
+
+#total {
+  font-family: "Audiowide";
+  max-width: 50%;
+  font-size: 40px !important;
+}
