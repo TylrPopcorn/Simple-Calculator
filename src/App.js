@@ -13,7 +13,7 @@ function App() {
   //--------------------                     ---------------------\\
   //FUNCTIONS:
   function WARN(type){ //Used to let the developer know what is wrong internally.
-    console.error(`${type} action can NOT be found`)
+    console.error(`'${type}' action can NOT be found. Please create one to enable '${type}' function.`)
   }
 
   const functions = { //Any function that uses dispatch.
